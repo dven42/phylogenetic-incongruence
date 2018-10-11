@@ -1,0 +1,375 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=181;
+	Taxlabels
+		Human-case|HUM-ASIA|CHN|A/Fujian-Sanyuan/21099/2017|H5N6|2017-12-25
+		H5N8clade_2016-17|H5N8|South_Korea|A/grey_heron/W779/2017|2017-01-27
+		H5N8clade_2016-17|H5N8|Egypt|A/green-winged_teal/Egypt/877/2016|2016-12-08
+		H5N8clade_2016-17|H5N8|Egypt|A/green-winged_teal/Egypt/871/2016|2016-12-08
+		other-LPAI|H4N6|Bangladesh|A/duck/Bangladesh/25891/2015|2015-07-10
+		other-LPAI|H7N5|Bangladesh|A/black-tailed_godwit/Bangladesh/24734/2015|2015-02-22
+		SOI_ASIA|SOI-ASIA|TWN|A/Spoonbill/Taiwan/DB645/2017|H5N6|2017-12-01
+		SOI_ASIA|SOI-ASIA|JPN|A/Mute_Swan/Shimane/3211A001/2017|H5N6|2017-11-05
+		SOI_ASIA|SOI-ASIA|KOR|A/Mallard/Korea/Jeju-H24/2017|H5N6|2017
+		SOI_ASIA|SOI-ASIA|KOR|A/Duck/Korea/HD1/2017|H5N6|2017
+		H5N8clade_2016-17|H5N8|A/mallard/Republic_of_Georgia/2/2016|MD|2016-12-9
+		H5N8clade_2016-17|H5N6|A/Chicken/Greece/39_2017/2017|2017-02-06
+		SOI_ASIA|SOI-ASIA|KOR|A/Duck/Korea/H35/2017|H5N6|2017
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1862/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1889/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1869/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1893/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1896/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1866/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mallard/Korea/K17-1825/2017|H5N6|2017-12-22
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1828/2017|H5N6|2017-12-22
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1826/2017|H5N6|2017-12-22
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1815/2017|H5N6|2017-12-22
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1817/2017|H5N6|2017-12-22
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1881/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1879/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1873/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1887/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1894/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1885/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1891/2017|H5N6|2017-12-23
+		SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K18-3/2018|H5N6|2018-01-18
+		SOI_EUROPE|SOI-EU|NLD|A/Great_Black-backed_Gull/Netherlands/1/2017|H5N6|2017-12-18
+		H5N8clade_2016-17|H5N8|Russia|A/chicken/Chechnya/58/2017|2017-01-08
+		H5N8clade_2016-17|H5N8|Belgium|A/chicken/Belgium/807/2017|2017-02-01
+		other-LPAI|H3N2|Bangladesh|A/duck/Bangladesh/31019/2016|2016-10-24
+		other-LPAI|H4N8|South_Africa|A/yellow-billed_duck/South_Africa/STR0963/2013|2013-02-01
+		H5-outlier|H5N8|Viet_Nam|A/duck/Quang_Ninh/19c511/2013|2013-04-10
+		other-LPAI|H9N2|China|A/duck/Wuhan/WHYF05/2014|2014-12-
+		other-LPAI|H4N6|Netherlands|A/mallard/Netherlands/13/2017|2017--
+		Human-case|HUM-ASIA|CHN|A/Anhui/33162/2016|H5N6|2016-04-28
+		other-LPAI|H7N9|China|A/chicken/Ganzhou/GZ79/2016|2016-01-27
+		H5N6-chinese|H5N6|China|A/chicken/Taishun/TS12/2016|2016-02-19
+		other-LPAI|H7N9|China|A/chicken/Taizhou/TZJF02/2015|2015-01-
+		H5N6-chinese|H5N6|China|A/chicken/Ganzhou/GZ50/2015|2015-12-12
+		other-LPAI|H9N2|China|A/chicken/Jingmen/JM0305/2017|2017-03-13
+		other-LPAI|H9N2|China|A/pigeon_feces/Anhui/DGG4/2015|2015-04-13
+		other-LPAI|H9N2|China|A/chicken/Jilin/0519/2012|2012-05-19
+		other-LPAI|mixed|China|A/chicken/Dongguan/2818/2013|2013-12-18
+		other-LPAI|H9N2|China|A/chicken/Shandong/H/2009|2009-05-
+		other-LPAI|H9N2|China|A/chicken/China/AH-10-01/2010|2010-12-02
+		other-LPAI|H9N2|China|A/chicken/Shandong/lc0830/2012|2012-08-30
+		other-LPAI|H9N2|China|A/chicken/Shandong/zc0606/2012|2012-06-06
+		other-LPAI|H9N2|Viet_Nam|A/muscovy_duck/Vietnam/LBM675/2014|2014-06-04
+		H5-outlier|H5N1|China|A/peacock/Yunnan/3/2015|2015-06-02
+		H5-outlier|H5N1|Lebanon|A/chicken/Lebanon/157/2016|2016-06-
+		other-LPAI|H9N2|China|A/chicken/Shandong/01/2009|2009-02-
+		other-LPAI|H9N2|China|A/chicken/Shandong/02/2009|2009-09-
+		H5-outlier|H5N2|Japan|A/duck/Japan/9UO036/2009|2009-10-15
+		other-LPAI|H3N8|Japan|A/avian/Japan/8KI0150/2008|2008-10-08
+		other-LPAI|H3N8|Laos|A/chicken/Laos/A0573/2007|2007--
+		SOI_ASIA|SOI-ASIA|GEO|A/Mallard/Republic_of_Georgia/1/2018|H5N6|2018-01-28
+		SOI_EUROPE|SOI-EU|NLD|A/Eurasian_Wigeon/Netherlands/1/2018|H5N6|2018-02-07
+		SOI_EUROPE|SOI-EU|GER|A/Common_Pochard/Germany-BY/AR09-L02421/2017|H5N6|2017-12-28
+		SOI_EUROPE|SOI-EU|NLD|A/Duck/Netherlands/17017237-001-005/2017|H5N6|2017-12-07
+		SOI_EUROPE|SOI-EU|NLD|A/Mute_Swan/Netherlands/17017377-001/2017|H5N6|2017-12-09
+		SOI_EUROPE|SOI-EU|GBR|A/Mute_Swan/England/SA21_180652/2018|H5N6|2018
+		SOI_EUROPE|SOI-EU|NLD|A/Great_black-backed_Gull/Netherlands/1/2018|H5N6|2018-01-23
+		SOI_EUROPE|SOI-EU|NLD|A/Tufted_Duck/Netherlands/17017367-007/2017|H5N6|2017-12-09
+		SOI_EUROPE|SOI-EU|NLD|A/Mute_Swan/Netherlands/17017367-012/2017|H5N6|2017-12-09
+		SOI_EUROPE|SOI-EU|NLD|A/Duck/Netherlands/17017236-001005/2017|H5N6|2017-12-07
+		SOI_EUROPE|SOI-EU|NLD|A/Chicken/Netherlands/EMC-1/2018|H5N6|2018-02-26
+		SOI_EUROPE|SOI-EU|NLD|A/Domestic_Duck/Netherlands/EMC-6/2018|H5N6|2018-03-13
+		SOI_EUROPE|SOI-EU|NLD|A/Black-headed_Gull/Netherlands/29/2017|H5N6|2017-12-18
+		SOI_EUROPE|SOI-EU|GBR|A/Pochard_Duck/England/AVP_18_003254/2018|H5N6|2018-01-10
+		other-LPAI|H9N2|Poland|A/turkey/Poland/08/2014|2014-04-17
+		H5-outlier|H5N9|France|A/guinea_fowl/France/150207n/2015|2015-12-03
+		H5-outlier|H5N9|France|A/duck/France/150236/2015|2015-12-07
+		other-LPAI|H4N6|Netherlands|A/mallard_duck/Netherlands/30/2014|2014-07-21
+		other-LPAI|H9N2|Egypt|A/pigeon/Egypt/S10408B/2014|2014-12-09
+		other-LPAI|H3N2|Mongolia|A/duck/Mongolia/124/2015|2015-08-30
+		H5N8clade_2016-17|H5N5|A/mallard/Republic_of_Georgia/1/2016|MD|2016-12-12
+		other-LPAI|H3N6|Netherlands|A/barnacle_goose/Netherlands/2/2014|2014-12-15
+		other-LPAI|H7N7|A/Mallard/Republic_of_Georgia/10/2016|MD|2016-08-30
+		other-LPAI|H9N2|Lebanon|A/quail/Lebanon/272/2010|2010-08-
+		H5N8clade_2016-17|H5N8|Belgium|A/Cygnus_olor/Belgium/1567/2017|2017-02-21
+		H5N8clade_2016-17|H5N8|Czech_Republic|A/chicken/Czech_Republic/206-17_2/2017|2017-01-06
+		other-LPAI|H4N6|A/Domestic_Duck/Republic_of_Georgia/8/2016|OD|2016-09-14
+		Human-case|HUM-ASIA|CHN|A/Guangdong/ZQ874/2015|H5N6|2015-12-31
+		H5N6-chinese|H5N6|Viet_Nam|A/duck/Vietnam/LBM752/2014|2014-10-13
+		H5N6-chinese|H5N6|China|A/goose/Guangdong/QY01/2016|2016-10-21
+		H5N6-chinese|H5N6|Japan|A/teal/Tottori/1/2016|2016-11-15
+		other-LPAI|H9N2|South_Korea|A/chicken/Korea/GH2/2007|2007-11-24
+		other-LPAI|H9N2|Israel|A/chicken/Israel/1167/2010|2010-11-
+		other-LPAI|H9N2|Egypt|A/chicken/Egypt/F7297B/2013|2013-02-05
+		other-LPAI|H9N2|Egypt|A/quail/Egypt/D10093/2014|2014-08-19
+		other-LPAI|H9N2|Egypt|A/quail/Egypt/D9842/2014|2014-04-22
+		other-LPAI|H9N2|Israel|A/chicken/Israel/375/2007|2007-03-06
+		H5-outlier|H5N1|China|A/chicken/Huadong/4/2008|2008-12-
+		H5-outlier|H5N1|Viet_Nam|A/duck/Vietnam/G12/2008|2008-01-
+		H5-outlier|H5N1|Laos|A/chicken/Laos/P0171/2007|2007--
+		H5-outlier|H5N1|Hong_Kong|A/magpie_robin/Hong_Kong/1897/2008|2008--
+		H5-outlier|H5N1|Laos|A/duck/Lao/6/2010|2010-03-
+		H5-outlier|H5N1|Cambodia|A/chicken/Cambodia/X0815301/2013|2013-08-13
+		H5N6-chinese|H5N6|China|A/duck/Wuhan/JXYFB22/2015|2015-01-
+		H5N6-chinese|H5N6|China|A/chicken/Jiangxi/NCDZT1123/2014|2014-06-29
+		H5-outlier|H5N1|Viet_Nam|A/muscovy_duck/Vietnam/LBM668/2014|2014-06-04
+		H5-outlier|H5N1|India|A/crow/India/11CA01/2011|2011-11-20
+		H5-outlier|H5N1|India|A/crow/India/02CA02/2012|2012-02-08
+		H5-outlier|H5N1|China|A/duck/Hunan/3/2007|2007-10-
+		H5-outlier|H5N1|Egypt|A/chicken/Egypt/Q1397D/2010|2010-03-20
+		H5-outlier|H5N1|Egypt|A/Pigeon/Egypt/RIMD18/2009|2009-01-
+		H5-outlier|H5N1|Russia|A/chicken/Russia_Krasnodar/2/2007|2007--
+		H5-outlier|H5N1|India|A/chicken/West_Bengal/239020/2010|2010-01-12
+		H5-outlier|H5N1|Saudi_Arabia|A/falcon/Saudi_Arabia/D1936/2007|2007--
+		H5-outlier|H5N1|Thailand|A/chicken/Uthaithani/NIAH115067/2008|2008--
+		H5-outlier|H5N1|Cambodia|A/chicken/Cambodia/TKCMB5T/2010|2010-01-28
+		other-LPAI|H9N2|China|A/wild_waterfowl/Dongting/C2149/2011|2011-11-01
+		other-LPAI|H3N8|China|A/pigeon/Anhui/08/2013|2013-08-03
+		other-LPAI|H3N6|China|A/duck/Hubei/ZYSYF4/2015|2015-11-15
+		H5N6-chinese|H5N2|USA|A/chicken/Iowa/04-20/2015|2015-04-20
+		H5N6-chinese|H5N8|Japan|A/tundra_swan/Tottori/C6nk/2014|2014-11-18
+		H5N6-chinese|H5N8|A/mallard/Republic_of_Georgia/1/2015|MD|2015-1-10
+		H5N6-chinese|H5N8|A/mallard/Republic_of_Georgia/4/2015|MD|2015-1-12
+		H5N6-chinese|H5N6|China|A/duck/Hubei/ZYSYG18/2015|2015-11-21
+		H5-outlier|H5N5|China|A/goose/Guangdong/k0103/2010|2010-01-27
+		other-LPAI|H3N2|China|A/duck/Hebei/B1646-2/2011|2011--
+		other-LPAI|H7N1|China|A/common_pochard/XiangHai/420/2010|2010-09-29
+		other-LPAI|H3N8|China|A/duck/Nanjing/A1591-1/2010|2010--
+		other-LPAI|H3N8|Mongolia|A/duck/Mongolia/173/2015|2015-08-30
+		other-LPAI|H9N2|China|A/chicken/Guangdong/01/2008|2008-01-02
+		other-LPAI|H9N2|Viet_Nam|A/chicken/HoChiMinh/0181/2013|2013-06-21
+		other-LPAI|H9N2|Viet_Nam|A/chicken/HoChiMinh/0190/2014|2014-03-12
+		other-LPAI|H9N2|China|A/chicken/Shandong/02/2008|2008-12-
+		other-LPAI|H9N2|China|A/chicken/Shaanxi/11/2012|2012-11-17
+		H5N6-chinese|H5N6|China|A/chicken/Ganzhou/GZ27/2015|2015-12-12
+		other-LPAI|H4N6|China|A/duck/Shanghai/MH-2/2009|2009--
+		other-LPAI|H3N2|China|A/duck/Shanghai/74-1/2009|2009--
+		other-LPAI|mixed|USA|A/ruddy_turnstone/New_Jersey/UGAI16-1558/2016|2016-05-12
+		other-LPAI|H9N2|Chile|A/American_oystercatcher/Chile/C1307/2015|2015-09-25
+		other-LPAI|H3N2|USA|A/mallard_duck/Ohio/16OS4983/2016|2016-11-12
+		other-LPAI|mixed|Guatemala|A/blue-winged_teal/Guatemala/CIP049H103-27/2011|2011-11-25
+		other-LPAI|H3N8|USA|A/northern_pintail/Alaska/523/2014|2014-09-29
+		other-LPAI|H3N8|USA|A/mallard/Oregon/AH0038704/2015|2015-08-11
+		other-LPAI|H3N1|USA|A/blue-winged_teal/Illinois/15OS6152/2015|2015-10-29
+		other-LPAI|H7N6|USA|A/scoter/Maryland/16OS2531/2016|2016-11-18
+		other-LPAI|H7N9|USA|A/American_green-winged_teal/Idaho/AH0006121/2015|2015-01-11
+		H5-outlier|H5N9|Chile|A/wild_bird/Chile/1805/2008|2008-01-21
+		other-LPAI|H7N1|USA|A/blue-winged_teal/Texas/AI12-909/2012|2012-03-07
+		other-LPAI|H4N8|USA|A/mallard/Minnesota/UGAI14-3457/2014|2014-09-10
+		other-LPAI|H3N8|USA|A/northern_pintail/Alaska/911/2013|2013-09-23
+		other-LPAI|H4N5|USA|A/mallard/Interior_Alaska/1/2007|2007-09-03
+		other-LPAI|H4N6|USA|A/blue-winged_teal/Ohio/15OS5426/2015|2015-09-14
+		other-LPAI|H7N7|USA|A/mallard/Kentucky/AH0069753/2016|2016-02-02
+		other-LPAI|mixed|Canada|A/mallard/Alberta/106/2007|2007-08-22
+		other-LPAI|H7N7|USA|A/duck/Pennsylvania/15-030188-1/2015|2015-09-15
+		other-LPAI|H7N3|USA|A/northern_shoveler/Texas/AH0056519/2016|2016-01-04
+		other-LPAI|H7N3|Canada|A/Canada_goose/BC/3752/2007|2007--
+		other-LPAI|H7N3|USA|A/American_green_winged_teal/Texas/A00604814/2009|2009-02-03
+		other-LPAI|H12N5|USA|A/northern_shoveler/Mississippi/09OS025/2009|2009-01-09
+		other-LPAI|H7N3|USA|A/mallard/Wisconsin/A00465618/2008|2008-09-05
+		other-LPAI|H10N1|USA|A/mallard/Ohio/15OS5649/2015|2015-11-17
+		other-LPAI|H7N3|USA|A/ruddy_turnstone/Delaware_Bay/108/2007|2007-05-22
+		other-LPAI|H3N8|USA|A/pintail_duck/Ohio/16OS5000/2016|2016-11-12
+		other-LPAI|H3N8|USA|A/northern_pintail/Alaska/7MP0608/2007|2007-08-06
+		other-LPAI|H3N2|USA|A/American_green-winged_teal/Wisconsin/08OS2292/2008|2008-10-20
+		H5-outlier|H5N2|Mexico|A/chicken/Aguascalientes/IA13/2010|2010-04-
+		other-LPAI|H3N2|Canada|A/turkey/Ontario/FAV-9/2011|2011-02-24
+		other-LPAI|H4N6|Chile|A/yellow-billed_pintail/Chile/7/2013|2013-11-01
+		other-LPAI|H4N2|Chile|A/mallard/Chile/C948/2015|2015-09-22
+		other-LPAI|H7N3|Chile|A/yellow-billed_pintail/Chile/10/2014|2014-04-17
+		other-LPAI|H3N6|Chile|A/red-fronted_coot/Chile/5/2013|2013-10-24
+		other-LPAI|mixed|USA|A/glaucous-winged_gull/Southcentral_Alaska/11JR01722/2011|2011-08-10
+		other-LPAI|H9N2|Pakistan|A/chicken/Pakistan/10A/2015|2015-05-11
+		other-LPAI|H9N2|Pakistan|A/chicken/Attock/NARC-14994/2009|2009-12-03
+		other-LPAI|H9N2|Pakistan|A/chicken/Sihala/NARC-12103/2008|2008-02-23
+		other-LPAI|H9N2|Pakistan|A/chicken/Pakistan/UDL-03/2007|2007-12-17
+		other-LPAI|H9N2|India|A/chicken/India/80998/2008|2008-01-12
+		other-LPAI|H9N2|Bangladesh|A/chicken/Bangladesh/30030/2016|2016-05-26
+		SOI_ASIA|SOI-ASIA|GEO|A/Armenian_Gull/Republic_of_Georgia/4/2017|H5N6|2017-12-27
+		H5-outlier|H5N3|France|A/breeder_duck/France/090045b/2009|2009--
+		;
+End;
+
+Begin trees;
+	Translate
+		1 Human-case|HUM-ASIA|CHN|A/Fujian-Sanyuan/21099/2017|H5N6|2017-12-25,
+		2 H5N8clade_2016-17|H5N8|South_Korea|A/grey_heron/W779/2017|2017-01-27,
+		3 H5N8clade_2016-17|H5N8|Egypt|A/green-winged_teal/Egypt/877/2016|2016-12-08,
+		4 H5N8clade_2016-17|H5N8|Egypt|A/green-winged_teal/Egypt/871/2016|2016-12-08,
+		5 other-LPAI|H4N6|Bangladesh|A/duck/Bangladesh/25891/2015|2015-07-10,
+		6 other-LPAI|H7N5|Bangladesh|A/black-tailed_godwit/Bangladesh/24734/2015|2015-02-22,
+		7 SOI_ASIA|SOI-ASIA|TWN|A/Spoonbill/Taiwan/DB645/2017|H5N6|2017-12-01,
+		8 SOI_ASIA|SOI-ASIA|JPN|A/Mute_Swan/Shimane/3211A001/2017|H5N6|2017-11-05,
+		9 SOI_ASIA|SOI-ASIA|KOR|A/Mallard/Korea/Jeju-H24/2017|H5N6|2017,
+		10 SOI_ASIA|SOI-ASIA|KOR|A/Duck/Korea/HD1/2017|H5N6|2017,
+		11 H5N8clade_2016-17|H5N8|A/mallard/Republic_of_Georgia/2/2016|MD|2016-12-9,
+		12 H5N8clade_2016-17|H5N6|A/Chicken/Greece/39_2017/2017|2017-02-06,
+		13 SOI_ASIA|SOI-ASIA|KOR|A/Duck/Korea/H35/2017|H5N6|2017,
+		14 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1862/2017|H5N6|2017-12-23,
+		15 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1889/2017|H5N6|2017-12-23,
+		16 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1869/2017|H5N6|2017-12-23,
+		17 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1893/2017|H5N6|2017-12-23,
+		18 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1896/2017|H5N6|2017-12-23,
+		19 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1866/2017|H5N6|2017-12-23,
+		20 SOI_ASIA|SOI-ASIA|KOR|A/Mallard/Korea/K17-1825/2017|H5N6|2017-12-22,
+		21 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1828/2017|H5N6|2017-12-22,
+		22 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1826/2017|H5N6|2017-12-22,
+		23 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1815/2017|H5N6|2017-12-22,
+		24 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1817/2017|H5N6|2017-12-22,
+		25 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1881/2017|H5N6|2017-12-23,
+		26 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1879/2017|H5N6|2017-12-23,
+		27 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1873/2017|H5N6|2017-12-23,
+		28 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1887/2017|H5N6|2017-12-23,
+		29 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1894/2017|H5N6|2017-12-23,
+		30 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1885/2017|H5N6|2017-12-23,
+		31 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K17-1891/2017|H5N6|2017-12-23,
+		32 SOI_ASIA|SOI-ASIA|KOR|A/Mandarin_duck/Korea/K18-3/2018|H5N6|2018-01-18,
+		33 SOI_EUROPE|SOI-EU|NLD|A/Great_Black-backed_Gull/Netherlands/1/2017|H5N6|2017-12-18,
+		34 H5N8clade_2016-17|H5N8|Russia|A/chicken/Chechnya/58/2017|2017-01-08,
+		35 H5N8clade_2016-17|H5N8|Belgium|A/chicken/Belgium/807/2017|2017-02-01,
+		36 other-LPAI|H3N2|Bangladesh|A/duck/Bangladesh/31019/2016|2016-10-24,
+		37 other-LPAI|H4N8|South_Africa|A/yellow-billed_duck/South_Africa/STR0963/2013|2013-02-01,
+		38 H5-outlier|H5N8|Viet_Nam|A/duck/Quang_Ninh/19c511/2013|2013-04-10,
+		39 other-LPAI|H9N2|China|A/duck/Wuhan/WHYF05/2014|2014-12-,
+		40 other-LPAI|H4N6|Netherlands|A/mallard/Netherlands/13/2017|2017--,
+		41 Human-case|HUM-ASIA|CHN|A/Anhui/33162/2016|H5N6|2016-04-28,
+		42 other-LPAI|H7N9|China|A/chicken/Ganzhou/GZ79/2016|2016-01-27,
+		43 H5N6-chinese|H5N6|China|A/chicken/Taishun/TS12/2016|2016-02-19,
+		44 other-LPAI|H7N9|China|A/chicken/Taizhou/TZJF02/2015|2015-01-,
+		45 H5N6-chinese|H5N6|China|A/chicken/Ganzhou/GZ50/2015|2015-12-12,
+		46 other-LPAI|H9N2|China|A/chicken/Jingmen/JM0305/2017|2017-03-13,
+		47 other-LPAI|H9N2|China|A/pigeon_feces/Anhui/DGG4/2015|2015-04-13,
+		48 other-LPAI|H9N2|China|A/chicken/Jilin/0519/2012|2012-05-19,
+		49 other-LPAI|mixed|China|A/chicken/Dongguan/2818/2013|2013-12-18,
+		50 other-LPAI|H9N2|China|A/chicken/Shandong/H/2009|2009-05-,
+		51 other-LPAI|H9N2|China|A/chicken/China/AH-10-01/2010|2010-12-02,
+		52 other-LPAI|H9N2|China|A/chicken/Shandong/lc0830/2012|2012-08-30,
+		53 other-LPAI|H9N2|China|A/chicken/Shandong/zc0606/2012|2012-06-06,
+		54 other-LPAI|H9N2|Viet_Nam|A/muscovy_duck/Vietnam/LBM675/2014|2014-06-04,
+		55 H5-outlier|H5N1|China|A/peacock/Yunnan/3/2015|2015-06-02,
+		56 H5-outlier|H5N1|Lebanon|A/chicken/Lebanon/157/2016|2016-06-,
+		57 other-LPAI|H9N2|China|A/chicken/Shandong/01/2009|2009-02-,
+		58 other-LPAI|H9N2|China|A/chicken/Shandong/02/2009|2009-09-,
+		59 H5-outlier|H5N2|Japan|A/duck/Japan/9UO036/2009|2009-10-15,
+		60 other-LPAI|H3N8|Japan|A/avian/Japan/8KI0150/2008|2008-10-08,
+		61 other-LPAI|H3N8|Laos|A/chicken/Laos/A0573/2007|2007--,
+		62 SOI_ASIA|SOI-ASIA|GEO|A/Mallard/Republic_of_Georgia/1/2018|H5N6|2018-01-28,
+		63 SOI_EUROPE|SOI-EU|NLD|A/Eurasian_Wigeon/Netherlands/1/2018|H5N6|2018-02-07,
+		64 SOI_EUROPE|SOI-EU|GER|A/Common_Pochard/Germany-BY/AR09-L02421/2017|H5N6|2017-12-28,
+		65 SOI_EUROPE|SOI-EU|NLD|A/Duck/Netherlands/17017237-001-005/2017|H5N6|2017-12-07,
+		66 SOI_EUROPE|SOI-EU|NLD|A/Mute_Swan/Netherlands/17017377-001/2017|H5N6|2017-12-09,
+		67 SOI_EUROPE|SOI-EU|GBR|A/Mute_Swan/England/SA21_180652/2018|H5N6|2018,
+		68 SOI_EUROPE|SOI-EU|NLD|A/Great_black-backed_Gull/Netherlands/1/2018|H5N6|2018-01-23,
+		69 SOI_EUROPE|SOI-EU|NLD|A/Tufted_Duck/Netherlands/17017367-007/2017|H5N6|2017-12-09,
+		70 SOI_EUROPE|SOI-EU|NLD|A/Mute_Swan/Netherlands/17017367-012/2017|H5N6|2017-12-09,
+		71 SOI_EUROPE|SOI-EU|NLD|A/Duck/Netherlands/17017236-001005/2017|H5N6|2017-12-07,
+		72 SOI_EUROPE|SOI-EU|NLD|A/Chicken/Netherlands/EMC-1/2018|H5N6|2018-02-26,
+		73 SOI_EUROPE|SOI-EU|NLD|A/Domestic_Duck/Netherlands/EMC-6/2018|H5N6|2018-03-13,
+		74 SOI_EUROPE|SOI-EU|NLD|A/Black-headed_Gull/Netherlands/29/2017|H5N6|2017-12-18,
+		75 SOI_EUROPE|SOI-EU|GBR|A/Pochard_Duck/England/AVP_18_003254/2018|H5N6|2018-01-10,
+		76 other-LPAI|H9N2|Poland|A/turkey/Poland/08/2014|2014-04-17,
+		77 H5-outlier|H5N9|France|A/guinea_fowl/France/150207n/2015|2015-12-03,
+		78 H5-outlier|H5N9|France|A/duck/France/150236/2015|2015-12-07,
+		79 other-LPAI|H4N6|Netherlands|A/mallard_duck/Netherlands/30/2014|2014-07-21,
+		80 other-LPAI|H9N2|Egypt|A/pigeon/Egypt/S10408B/2014|2014-12-09,
+		81 other-LPAI|H3N2|Mongolia|A/duck/Mongolia/124/2015|2015-08-30,
+		82 H5N8clade_2016-17|H5N5|A/mallard/Republic_of_Georgia/1/2016|MD|2016-12-12,
+		83 other-LPAI|H3N6|Netherlands|A/barnacle_goose/Netherlands/2/2014|2014-12-15,
+		84 other-LPAI|H7N7|A/Mallard/Republic_of_Georgia/10/2016|MD|2016-08-30,
+		85 other-LPAI|H9N2|Lebanon|A/quail/Lebanon/272/2010|2010-08-,
+		86 H5N8clade_2016-17|H5N8|Belgium|A/Cygnus_olor/Belgium/1567/2017|2017-02-21,
+		87 H5N8clade_2016-17|H5N8|Czech_Republic|A/chicken/Czech_Republic/206-17_2/2017|2017-01-06,
+		88 other-LPAI|H4N6|A/Domestic_Duck/Republic_of_Georgia/8/2016|OD|2016-09-14,
+		89 Human-case|HUM-ASIA|CHN|A/Guangdong/ZQ874/2015|H5N6|2015-12-31,
+		90 H5N6-chinese|H5N6|Viet_Nam|A/duck/Vietnam/LBM752/2014|2014-10-13,
+		91 H5N6-chinese|H5N6|China|A/goose/Guangdong/QY01/2016|2016-10-21,
+		92 H5N6-chinese|H5N6|Japan|A/teal/Tottori/1/2016|2016-11-15,
+		93 other-LPAI|H9N2|South_Korea|A/chicken/Korea/GH2/2007|2007-11-24,
+		94 other-LPAI|H9N2|Israel|A/chicken/Israel/1167/2010|2010-11-,
+		95 other-LPAI|H9N2|Egypt|A/chicken/Egypt/F7297B/2013|2013-02-05,
+		96 other-LPAI|H9N2|Egypt|A/quail/Egypt/D10093/2014|2014-08-19,
+		97 other-LPAI|H9N2|Egypt|A/quail/Egypt/D9842/2014|2014-04-22,
+		98 other-LPAI|H9N2|Israel|A/chicken/Israel/375/2007|2007-03-06,
+		99 H5-outlier|H5N1|China|A/chicken/Huadong/4/2008|2008-12-,
+		100 H5-outlier|H5N1|Viet_Nam|A/duck/Vietnam/G12/2008|2008-01-,
+		101 H5-outlier|H5N1|Laos|A/chicken/Laos/P0171/2007|2007--,
+		102 H5-outlier|H5N1|Hong_Kong|A/magpie_robin/Hong_Kong/1897/2008|2008--,
+		103 H5-outlier|H5N1|Laos|A/duck/Lao/6/2010|2010-03-,
+		104 H5-outlier|H5N1|Cambodia|A/chicken/Cambodia/X0815301/2013|2013-08-13,
+		105 H5N6-chinese|H5N6|China|A/duck/Wuhan/JXYFB22/2015|2015-01-,
+		106 H5N6-chinese|H5N6|China|A/chicken/Jiangxi/NCDZT1123/2014|2014-06-29,
+		107 H5-outlier|H5N1|Viet_Nam|A/muscovy_duck/Vietnam/LBM668/2014|2014-06-04,
+		108 H5-outlier|H5N1|India|A/crow/India/11CA01/2011|2011-11-20,
+		109 H5-outlier|H5N1|India|A/crow/India/02CA02/2012|2012-02-08,
+		110 H5-outlier|H5N1|China|A/duck/Hunan/3/2007|2007-10-,
+		111 H5-outlier|H5N1|Egypt|A/chicken/Egypt/Q1397D/2010|2010-03-20,
+		112 H5-outlier|H5N1|Egypt|A/Pigeon/Egypt/RIMD18/2009|2009-01-,
+		113 H5-outlier|H5N1|Russia|A/chicken/Russia_Krasnodar/2/2007|2007--,
+		114 H5-outlier|H5N1|India|A/chicken/West_Bengal/239020/2010|2010-01-12,
+		115 H5-outlier|H5N1|Saudi_Arabia|A/falcon/Saudi_Arabia/D1936/2007|2007--,
+		116 H5-outlier|H5N1|Thailand|A/chicken/Uthaithani/NIAH115067/2008|2008--,
+		117 H5-outlier|H5N1|Cambodia|A/chicken/Cambodia/TKCMB5T/2010|2010-01-28,
+		118 other-LPAI|H9N2|China|A/wild_waterfowl/Dongting/C2149/2011|2011-11-01,
+		119 other-LPAI|H3N8|China|A/pigeon/Anhui/08/2013|2013-08-03,
+		120 other-LPAI|H3N6|China|A/duck/Hubei/ZYSYF4/2015|2015-11-15,
+		121 H5N6-chinese|H5N2|USA|A/chicken/Iowa/04-20/2015|2015-04-20,
+		122 H5N6-chinese|H5N8|Japan|A/tundra_swan/Tottori/C6nk/2014|2014-11-18,
+		123 H5N6-chinese|H5N8|A/mallard/Republic_of_Georgia/1/2015|MD|2015-1-10,
+		124 H5N6-chinese|H5N8|A/mallard/Republic_of_Georgia/4/2015|MD|2015-1-12,
+		125 H5N6-chinese|H5N6|China|A/duck/Hubei/ZYSYG18/2015|2015-11-21,
+		126 H5-outlier|H5N5|China|A/goose/Guangdong/k0103/2010|2010-01-27,
+		127 other-LPAI|H3N2|China|A/duck/Hebei/B1646-2/2011|2011--,
+		128 other-LPAI|H7N1|China|A/common_pochard/XiangHai/420/2010|2010-09-29,
+		129 other-LPAI|H3N8|China|A/duck/Nanjing/A1591-1/2010|2010--,
+		130 other-LPAI|H3N8|Mongolia|A/duck/Mongolia/173/2015|2015-08-30,
+		131 other-LPAI|H9N2|China|A/chicken/Guangdong/01/2008|2008-01-02,
+		132 other-LPAI|H9N2|Viet_Nam|A/chicken/HoChiMinh/0181/2013|2013-06-21,
+		133 other-LPAI|H9N2|Viet_Nam|A/chicken/HoChiMinh/0190/2014|2014-03-12,
+		134 other-LPAI|H9N2|China|A/chicken/Shandong/02/2008|2008-12-,
+		135 other-LPAI|H9N2|China|A/chicken/Shaanxi/11/2012|2012-11-17,
+		136 H5N6-chinese|H5N6|China|A/chicken/Ganzhou/GZ27/2015|2015-12-12,
+		137 other-LPAI|H4N6|China|A/duck/Shanghai/MH-2/2009|2009--,
+		138 other-LPAI|H3N2|China|A/duck/Shanghai/74-1/2009|2009--,
+		139 other-LPAI|mixed|USA|A/ruddy_turnstone/New_Jersey/UGAI16-1558/2016|2016-05-12,
+		140 other-LPAI|H9N2|Chile|A/American_oystercatcher/Chile/C1307/2015|2015-09-25,
+		141 other-LPAI|H3N2|USA|A/mallard_duck/Ohio/16OS4983/2016|2016-11-12,
+		142 other-LPAI|mixed|Guatemala|A/blue-winged_teal/Guatemala/CIP049H103-27/2011|2011-11-25,
+		143 other-LPAI|H3N8|USA|A/northern_pintail/Alaska/523/2014|2014-09-29,
+		144 other-LPAI|H3N8|USA|A/mallard/Oregon/AH0038704/2015|2015-08-11,
+		145 other-LPAI|H3N1|USA|A/blue-winged_teal/Illinois/15OS6152/2015|2015-10-29,
+		146 other-LPAI|H7N6|USA|A/scoter/Maryland/16OS2531/2016|2016-11-18,
+		147 other-LPAI|H7N9|USA|A/American_green-winged_teal/Idaho/AH0006121/2015|2015-01-11,
+		148 H5-outlier|H5N9|Chile|A/wild_bird/Chile/1805/2008|2008-01-21,
+		149 other-LPAI|H7N1|USA|A/blue-winged_teal/Texas/AI12-909/2012|2012-03-07,
+		150 other-LPAI|H4N8|USA|A/mallard/Minnesota/UGAI14-3457/2014|2014-09-10,
+		151 other-LPAI|H3N8|USA|A/northern_pintail/Alaska/911/2013|2013-09-23,
+		152 other-LPAI|H4N5|USA|A/mallard/Interior_Alaska/1/2007|2007-09-03,
+		153 other-LPAI|H4N6|USA|A/blue-winged_teal/Ohio/15OS5426/2015|2015-09-14,
+		154 other-LPAI|H7N7|USA|A/mallard/Kentucky/AH0069753/2016|2016-02-02,
+		155 other-LPAI|mixed|Canada|A/mallard/Alberta/106/2007|2007-08-22,
+		156 other-LPAI|H7N7|USA|A/duck/Pennsylvania/15-030188-1/2015|2015-09-15,
+		157 other-LPAI|H7N3|USA|A/northern_shoveler/Texas/AH0056519/2016|2016-01-04,
+		158 other-LPAI|H7N3|Canada|A/Canada_goose/BC/3752/2007|2007--,
+		159 other-LPAI|H7N3|USA|A/American_green_winged_teal/Texas/A00604814/2009|2009-02-03,
+		160 other-LPAI|H12N5|USA|A/northern_shoveler/Mississippi/09OS025/2009|2009-01-09,
+		161 other-LPAI|H7N3|USA|A/mallard/Wisconsin/A00465618/2008|2008-09-05,
+		162 other-LPAI|H10N1|USA|A/mallard/Ohio/15OS5649/2015|2015-11-17,
+		163 other-LPAI|H7N3|USA|A/ruddy_turnstone/Delaware_Bay/108/2007|2007-05-22,
+		164 other-LPAI|H3N8|USA|A/pintail_duck/Ohio/16OS5000/2016|2016-11-12,
+		165 other-LPAI|H3N8|USA|A/northern_pintail/Alaska/7MP0608/2007|2007-08-06,
+		166 other-LPAI|H3N2|USA|A/American_green-winged_teal/Wisconsin/08OS2292/2008|2008-10-20,
+		167 H5-outlier|H5N2|Mexico|A/chicken/Aguascalientes/IA13/2010|2010-04-,
+		168 other-LPAI|H3N2|Canada|A/turkey/Ontario/FAV-9/2011|2011-02-24,
+		169 other-LPAI|H4N6|Chile|A/yellow-billed_pintail/Chile/7/2013|2013-11-01,
+		170 other-LPAI|H4N2|Chile|A/mallard/Chile/C948/2015|2015-09-22,
+		171 other-LPAI|H7N3|Chile|A/yellow-billed_pintail/Chile/10/2014|2014-04-17,
+		172 other-LPAI|H3N6|Chile|A/red-fronted_coot/Chile/5/2013|2013-10-24,
+		173 other-LPAI|mixed|USA|A/glaucous-winged_gull/Southcentral_Alaska/11JR01722/2011|2011-08-10,
+		174 other-LPAI|H9N2|Pakistan|A/chicken/Pakistan/10A/2015|2015-05-11,
+		175 other-LPAI|H9N2|Pakistan|A/chicken/Attock/NARC-14994/2009|2009-12-03,
+		176 other-LPAI|H9N2|Pakistan|A/chicken/Sihala/NARC-12103/2008|2008-02-23,
+		177 other-LPAI|H9N2|Pakistan|A/chicken/Pakistan/UDL-03/2007|2007-12-17,
+		178 other-LPAI|H9N2|India|A/chicken/India/80998/2008|2008-01-12,
+		179 other-LPAI|H9N2|Bangladesh|A/chicken/Bangladesh/30030/2016|2016-05-26,
+		180 SOI_ASIA|SOI-ASIA|GEO|A/Armenian_Gull/Republic_of_Georgia/4/2017|H5N6|2017-12-27,
+		181 H5-outlier|H5N3|France|A/breeder_duck/France/090045b/2009|2009--
+		;
+tree TREE1 = [&R] ((((((((((((139:0.0050187732,140:0.005381867):0.0243487284,141:0.0119303518):0.0017164589,(142:0.0093773721,(143:0.0087632987,(144:0.0137200536,(145:0.0037396254,146:0.0113379778):0.0124633855):0.0036023578):4.372722E-4):0.0018662488):7.545704E-4,147:0.0189845975):0.0032560932,148:0.0078224248):0.0072484535,149:0.0150218352):0.0106371688,((150:0.010560712,151:0.0054571659):0.0139577054,(152:0.006949078,(153:0.0041230106,154:0.0133784533):0.0060190698):5.709628E-4):0.0067113738):0.0199676947,((155:0.0044285773,(156:0.0064104497,157:0.0058048763):0.0210462433):0.0138233377,((((158:0.0080559162,159:0.010455798):0.0014702649,160:0.009860793):0.0103823073,(161:0.0045487829,162:0.0161742705):0.0143353732):0.0022837749,(163:0.0167429807,164:0.0458081641):0.0074569573):0.0036847795):0.0233116805):0.0033165053,165:0.0282879114):0.0224211428,((166:0.0212404386,167:0.0919497134):0.0233065445,168:0.0783422458):0.0170642585):0.0822221909,(((169:0.0126967415,170:0.0193212986):0.0057967148,171:0.0181023933):0.0192014933,172:0.0440901108):0.2190627773):0.018216480964929505,(((((((99:0.0313879327,(((100:0.0110435693,101:0.0104874718):4.407128E-4,(((102:0.0015559123,(103:0.0080727514,(104:0.0174054346,((105:0.0044098826,106:0.0070580159):0.014839728,107:0.0117285893):0.016727459):0.0056784472):0.0030287213):0.0030703158,(108:0.0020147843,109:0.0051595721):0.0255211421):0.0027175505,110:0.0087465877):0.0070885429):0.0080803649,(((111:0.0103288861,112:0.0028983508):0.0137181369,(113:0.0022624454,114:0.0133928519):0.0026633773):1.388704E-4,115:0.0132295646):0.0071452788):0.006405162):0.0010221319,(116:0.0217438557,117:0.0238572515):0.005906384):0.0136493821,((118:0.0101792449,(119:0.0111778461,120:0.01629555):0.00470594):0.010804149,(((((121:0.0013321742,122:0.0013292257):0.0049576912,(123:0.0014834068,124:2.3466E-6):0.0030251845):2.864889E-4,125:0.0023562356):0.0256870814,126:0.0143310303):0.0124864519,127:0.0263548117):0.0104636284):0.0037803283):0.0010419743,((128:4.087772E-4,129:0.0189365076):0.0034414035,130:0.0103145709):0.0077119549):0.0098083912,(131:0.0475990441,(((132:0.0123789208,133:0.0170804984):0.0283936266,134:0.0244215348):0.0166089131,135:0.052991712):0.0199177818):0.0228718957):0.0152089302,(136:0.0304394188,(137:0.0017377417,138:0.0013745743):0.009874733):0.0454630457):0.037423132,(173:0.1365885125,((((((89:4.420788E-4,90:2.35E-6):0.0010642965,91:0.0108940261):1.7931E-6,92:0.0126099425):0.0796065432,93:0.0433520995):0.0236260021,(94:0.032898987,((95:0.0100535108,(96:0.0059052474,97:0.0077109125):0.0119866202):0.029507588,98:0.0051143478):0.0138433914):0.0851240829):0.0129659612,((((174:0.0331008771,175:0.0088827953):0.0067065861,(176:0.0017867198,177:0.0013165479):0.0120383997):0.0117308915,(178:0.0123981073,179:0.0621657906):0.0170259962):0.0683120094,(((((((((41:0.0072906118,42:0.0044675674):0.0037086987,(43:0.0044456477,44:2.1321E-6):0.0012951793):0.0248607438,((45:0.0055706023,46:0.0097800536):0.0091753729,47:0.0209845469):0.0072505172):7.446355E-4,(48:0.0074811807,49:0.011909472):0.010999893):0.0020933973,50:0.006367682):0.0143583052,(((51:0.0040568563,((52:0.0020879971,53:5.712843E-4):0.004576753,54:0.0130462748):0.0015124915):0.0057057505,(55:0.0209601002,56:0.0221681183):0.0045983117):0.0030387186,(57:3.955226E-4,58:0.0035960437):0.013163695):0.0066526688):0.0135772018,((59:0.0026618914,60:0.001332333):0.00510596,61:0.0048471094):0.006011028):0.0192564628,(((((((((((62:0.0017685554,63:1.9665E-6):0.0017697151,64:4.404558E-4):2.3465E-6,(65:2.3466E-6,66:2.3466E-6):2.3465E-6):2.3465E-6,((67:4.40442E-4,68:4.404746E-4):2.3637E-6,(69:4.404875E-4,70:4.404826E-4):2.3529E-6):2.0571E-6):2.2717E-6,(71:4.404525E-4,(72:4.441307E-4,73:0.001774713):4.393897E-4):2.3465E-6):2.3465E-6,74:4.404923E-4):4.327876E-4,75:8.916369E-4):0.0222407705,((76:0.0077596671,(77:0.0022294601,78:0.0013171458):0.0145457867):0.0029003771,79:0.0106683357):2.2212E-6):0.0061433814,80:0.01960762):0.0190189458,81:0.0239116152):0.0033894472,((((82:0.0062781238,83:0.0027106966):0.0022866183,84:0.0109331701):0.0141377665,85:0.0341156294):0.003699462,((86:0.0017688127,87:0.0040144984):0.0011369792,88:0.0024165151):0.0175067705):0.0247631987):0.0049968143):0.0039551029,(((((((1:0.0101671189,(2:0.0025481695,(3:2.3466E-6,4:4.40176E-4):0.0014428006):3.617513E-4):0.0109657093,((5:0.0050056793,6:0.0026508069):0.0027151835,(((7:0.003120551,((8:2.3466E-6,9:0.0013244315):1.8422E-6,10:0.0017720992):8.801152E-4):0.0017766935,((11:0.0035488512,12:0.003102539):2.188E-6,((((13:0.0026594406,(((((14:0.0,15:0.0):0.0,16:0.0):0.0,17:0.0):0.0,18:0.0):1.9656E-6,19:2.3466E-6):4.402325E-4):2.2508E-6,(((((((20:0.0,21:0.0):2.3466E-6,22:2.3466E-6):2.3465E-6,23:4.402368E-4):2.0221E-6,24:4.402742E-4):4.40223E-4,25:8.821399E-4):1.9421E-6,26:2.3466E-6):2.1088E-6,((((27:0.0,28:0.0):0.0,29:0.0):0.0,30:0.0):0.0,31:0.0):2.3466E-6):2.2483E-6):1.8608E-6,32:0.0022117999):0.0022263321,33:0.0013255154):0.0031197342):1.753E-6):1.771183E-4,(34:0.001327557,35:8.817678E-4):0.0011510085):0.0161669914):0.0011865094):0.0057919375,36:0.0209382711):0.0159601625,37:0.0233703469):2.095692E-4,(38:0.0148219328,39:0.0076765724):0.0079006681):0.0041510528,40:0.0235519386):0.0117619247,(180:0.0092109592,181:0.0113274673):0.0090286603):0.0069540477):0.0316880402):0.0038300508):0.026670304):0.0231025627):0.05711996993507049);
+End;
